@@ -28,7 +28,25 @@
         <button type="submit" class="input-submit-button">投稿する</button>
       </form>
     </div>
-  <hr class="page-divider" />
+    <hr class="page-divider" />
+    <div class="message-list-cover">
+      <small>
+        1 件の投稿
+      </small>
+        <div class="message-item">
+          <div class="message-title">
+            <div>イチロー</div>
+            <small>2022-01-01 00:00:00</small>
+            <div class="spacer"></div>
+            <form action="/" method="post" style="text-align:right">
+              <input type="hidden" name="id" value="" />
+              <input type="hidden" name="action_type" value="delete" />
+              <button type="submit" class="message-delete-button">削除</button>
+            </form>
+          </div>
+            <p class="message-line">明けましておめでとうございます</p>
+        </div>
+    </div>
   </div>
 </body>
 
